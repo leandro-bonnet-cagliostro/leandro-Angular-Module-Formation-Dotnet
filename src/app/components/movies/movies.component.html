@@ -1,0 +1,29 @@
+<div *ngFor="let movie of movies" class="card">
+    <p>
+        {{ movie.title }}
+    </p>
+    <p>
+        {{ movie.description }}
+    </p>
+    <p>
+        {{ movie['Catégorie'] }}
+    </p>
+    <button class="btn btn-info" (click)="updateMovie(movie)">
+        Modifier via navigate
+    </button>
+    <div class="btn btn-danger">
+        <a [routerLink]="['/details']" [queryParams]="{'type' : 'movie',
+        'id' : movie.id}">
+            Modifier via lien routerLink
+        </a>
+    </div>
+    <button class="btn btn-danger" (click)="deleteMovie(movie.id)">
+        Supprimer
+    </button>
+</div>
+
+<!-- {{ textResearch }} -->
+
+<!-- <router-outlet></router-outlet> -->
+
+<!-- Recherche en cours sur la page {{changementPage}} -->

@@ -1,0 +1,133 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "nesciunt quas odio",
+      "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque",
+      "isRead": false
+    },
+    {
+      "userId": 1,
+      "id": 7,
+      "title": "magnam facilis autem",
+      "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas",
+      "isRead": false
+    },
+    {
+      "userId": 1,
+      "id": 9,
+      "title": "nesciunt iure omnis dolorem tempora et accusantium",
+      "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas",
+      "isRead": true
+    },
+    {
+      "userId": 1,
+      "id": 10,
+      "title": "optio molestias id quia eum",
+      "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error",
+      "isRead": true
+    },
+    {
+      "userId": 2,
+      "id": 11,
+      "title": "et ea vero quia laudantium autem",
+      "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi",
+      "isRead": false
+    },
+    {
+      "userId": 2,
+      "id": 12,
+      "title": "in quibusdam tempore odit est dolorem",
+      "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio",
+      "isRead": true
+    },
+    {
+      "userId": 2,
+      "id": 13,
+      "title": "dolorum ut in voluptas mollitia et saepe quo animi",
+      "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
+      "isRead": true
+    },
+    {
+      "userId": 2,
+      "id": 14,
+      "title": "voluptatem eligendi optio",
+      "body": "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum",
+      "isRead": false
+    },
+    {
+      "userId": 2,
+      "id": 1,
+      "title": "voluptatem salem",
+      "body": "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum",
+      "isRead": false
+    },
+    {
+      "userId": 2,
+      "id": 2,
+      "title": "voluptatem eligendi circemses",
+      "body": "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum",
+      "isRead": false
+    },
+    {
+      "userId": 2,
+      "id": 16,
+      "title": "Ajouté à la main :)",
+      "body": "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum",
+      "isRead": true
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Forrest Gump",
+      "description": "Un homme qui a inspiré le monde pendant 3 ans parce qu'il ne savait pas ou aller... mais donc il court encore",
+      "Catégorie": "Comédie dramatique pas drôle"
+    },
+    {
+      "id": 2,
+      "title": "Alice au pays des merveilles",
+      "description": "suivre un lapin peut vous emmener dans des endroits bien étranges...",
+      "Catégorie": "Fantaisie"
+    },
+    {
+      "id": 3,
+      "title": "Initial D - 3rd stage",
+      "description": "Vroum vroum",
+      "Catégorie": "Action"
+    },
+    {
+      "id": 4,
+      "title": "Rocky",
+      "description": "Rocky est un boxeur paumé qui un jour à la chance de sa vie...",
+      "Catégorie": "Badass"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Leandro",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "Alexandre",
+      "password": "user",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "Seb",
+      "password": "user",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "username": "Ody",
+      "password": "user",
+      "role": "user"
+    }
+  ]
+}

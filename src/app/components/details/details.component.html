@@ -1,0 +1,35 @@
+
+<div *ngIf="this.queryParamsType==='movie'">
+    <h2 >Movie</h2>
+    <div>
+        <label for="title">Title :</label>
+        <input id="title" #title type="text" [value]="objectReceive.title" (keyup.enter)="changeTitle(title.value)"/>
+    </div>
+    <div>
+        <label for="description">Description :</label>
+        <textarea id="description" #description type="text" [(ngModel)]="objectReceive.description" cols="50" rows="2" wrap="hard"></textarea>
+        <input type="button" value="Confirmer la description" (click)="changeDescription()"/>
+    </div>
+    <div>
+        <label for="categorie">Categorie :</label>
+        <input id="categorie" #categorie type="text" [(ngModel)]="objectReceive['Catégorie']" (keyup.enter)="changeCategorie()"/>
+    </div>
+    <!-- <p>{{val}}</p> -->
+    <!-- pour faire fct le ngModel il faut avoir mis FormsModule dans l'app.module -->
+    <p>le titre : {{objectReceive.title}}</p>
+    <p>la catégorie : {{objectReceive["Catégorie"]}}</p>
+    <!-- <p>{{val2}}</p> -->
+</div>
+
+<div *ngIf="this.queryParamsType==='user'">
+    <h2>User</h2>
+    <div>
+        <label for="username">Username :</label>
+        <input id="username" #user type="text" [value]="objectReceive.username" (keyup.enter)="changeUsername(user.value)"/>
+    </div>
+
+    <div>
+        <label for="role">Role :</label>
+        <input id="role" #role type="text" [value]="objectReceive.role" (keyup.enter)="changerRole(role.value)"/>
+    </div>
+</div>

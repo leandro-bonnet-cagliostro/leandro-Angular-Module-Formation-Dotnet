@@ -1,0 +1,32 @@
+<!-- <app-users></app-users> -->
+
+<!-- <app-movies></app-movies> -->
+<a [routerLink]="['']" routerLinkActive="router-link-active" (click)="modifyResearchEntity(false)">
+    Connexion
+</a>
+
+<a [routerLink]="['movie']" routerLinkActive="router-link-active" (click)="modifyResearchEntity(true)">
+    Movies
+</a>
+
+<a [routerLink]="['user']" routerLinkActive="router-link-active" (click)="modifyResearchEntity(true)">
+    Users
+</a>
+<!-- <a [routerLink]="'/'" routerLinkActive="router-link-active" (click)="modifyResearchEntity(false)">
+    Connexion
+</a>
+
+<a [routerLink]="'/movie'" routerLinkActive="router-link-active" (click)="modifyResearchEntity(true)">
+    Movies
+</a>
+
+<a [routerLink]="'/user'" routerLinkActive="router-link-active" (click)="modifyResearchEntity(true)">
+    Users
+</a> -->
+<!-- <input type="button" value="+" (click)="add()"/> -->
+
+<div *ngIf="isDisplayed">
+    <app-research [textResearchVal]="research" (textResearchValChanged)="modifyReseach($event)"></app-research>
+</div>
+<!-- {{research}} -->
+<router-outlet></router-outlet>
